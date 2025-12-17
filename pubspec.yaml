@@ -1,0 +1,32 @@
+name: streetmovil
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.18.0
+  cloud_firestore: ^4.15.0
+  http: ^1.6.0
+  shared_preferences: ^2.3.2
+  flutter_svg: ^2.0.9   # opcional, si usas SVGs
+  provider: ^6.1.2
+  mailer: ^6.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/images/code.png
+    - assets/images/gm_logo.png
+    - assets/images/
+  uses-material-design: true
